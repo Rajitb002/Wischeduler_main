@@ -1,0 +1,61 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:padding="16dp">
+
+    <!-- Toolbar for Back Button -->
+    <RelativeLayout
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:padding="8dp">
+
+        <ImageButton
+            android:id="@+id/btnBack"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:src="@drawable/ic_back"
+            android:background="@null"
+            android:layout_alignParentStart="true"
+            android:contentDescription="Back"
+            app:tint="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/tvToolbarTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Friends"
+            android:textSize="20sp"
+            android:textColor="#FFFFFF"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/btnBack"
+            android:layout_marginStart="16dp" />
+    </RelativeLayout>
+
+    <!-- RecyclerView for Friends List -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerFriendsList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="8dp"
+        android:layout_above="@+id/btnInviteFriends"
+        android:layout_below="@id/toolbar"
+        android:clipToPadding="false"
+        android:padding="8dp" />
+
+    <!-- Invite Friends Button -->
+    <Button
+        android:id="@+id/btnInviteFriends"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Invite Friends"
+        android:background="@drawable/rounded_rectangle_background"
+        android:backgroundTint="#FF7043"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="8dp" />
+</RelativeLayout>

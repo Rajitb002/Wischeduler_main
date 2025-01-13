@@ -1,0 +1,29 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="8dp">
+
+    <!-- Message Bubble -->
+    <TextView
+        android:id="@+id/chatBubble"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:background="@null"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:maxWidth="250dp"
+        android:layout_gravity="start" />
+
+    <!-- Timestamp -->
+    <TextView
+        android:id="@+id/timestamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textColor="#AAAAAA"
+        android:layout_gravity="start"
+        android:layout_marginTop="4dp" />
+</LinearLayout>

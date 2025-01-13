@@ -1,0 +1,280 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    android:padding="16dp">
+
+    <ScrollView
+        android:id="@+id/preferencesScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/footerButtons"
+        android:layout_marginBottom="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- Study Preferences -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Study Preferences"
+                android:textSize="18sp"
+                android:layout_marginBottom="8dp"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="When do you prefer to study?"
+                android:layout_marginBottom="8dp"
+                android:textColor="#FFFFFF" />
+
+            <RadioGroup
+                android:id="@+id/radioGroupStudyTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Morning (6 AM - 12 PM)"
+                    android:textColor="#FFFFFF" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Afternoon (12 PM - 6 PM)"
+                    android:textColor="#FFFFFF" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Evening (6 PM - 12 AM)"
+                    android:textColor="#FFFFFF" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Late Night (12 AM - 3 AM)"
+                    android:textColor="#FFFFFF" />
+            </RadioGroup>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="How long can you study in one sitting without losing focus?"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"
+                android:textColor="#FFFFFF" />
+
+            <RadioGroup
+                android:id="@+id/radioGroupSittingDuration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Less than 30 minutes"
+                    android:textColor="#FFFFFF" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="30-60 minutes"
+                    android:textColor="#FFFFFF" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1-2 hours"
+                    android:textColor="#FFFFFF" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="More than 2 hours"
+                    android:textColor="#FFFFFF" />
+            </RadioGroup>
+
+            <!-- Exam Preparation -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Exam Preparation"
+                android:textSize="18sp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="How much advance preparation do you need for exams or quizzes?"
+                android:layout_marginBottom="8dp"
+                android:textColor="#FFFFFF" />
+
+            <RadioGroup
+                android:id="@+id/radioGroupExamPrep"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Less than 1 week"
+                    android:textColor="#FFFFFF" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1-2 weeks"
+                    android:textColor="#FFFFFF" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="More than 2 weeks"
+                    android:textColor="#FFFFFF" />
+            </RadioGroup>
+
+            <!-- Sleep Preferences -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sleep Preferences"
+                android:textSize="18sp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Preferred Sleep Time"
+                android:layout_marginBottom="8dp"
+                android:textColor="#FFFFFF" />
+
+            <EditText
+                android:id="@+id/editTextSleepTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter time (e.g., 10:00 PM)"
+                android:backgroundTint="#FFFFFF"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Preferred Wake-Up Time"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"
+                android:textColor="#FFFFFF" />
+
+            <EditText
+                android:id="@+id/editTextWakeUpTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter time (e.g., 6:00 AM)"
+                android:backgroundTint="#FFFFFF"
+                android:textColor="#FFFFFF" />
+
+            <!-- Event Preferences -->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Event Preferences"
+                android:textSize="18sp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="8dp"
+                android:textColor="#FFFFFF" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="What kind of events do you like?"
+                android:layout_marginBottom="8dp"
+                android:textColor="#FFFFFF" />
+
+            <RadioGroup
+                android:id="@+id/radioGroupEventPreferences"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Movies"
+                    android:textColor="#FFFFFF" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Relaxation (Meditation)"
+                    android:textColor="#FFFFFF" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Concerts/Music"
+                    android:textColor="#FFFFFF" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Surprise Me"
+                    android:textColor="#FFFFFF" />
+            </RadioGroup>
+
+            <!-- Submit Button -->
+            <Button
+                android:id="@+id/btnSubmit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Submit"
+                android:backgroundTint="#FF4081"
+                android:textColor="#FFFFFF"
+                android:layout_marginTop="24dp" />
+        </LinearLayout>
+    </ScrollView>
+
+    <!-- Footer Buttons -->
+    <LinearLayout
+        android:id="@+id/footerButtons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:gravity="center"
+        android:layout_margin="8dp">
+
+        <Button
+            android:id="@+id/btnAddEvent"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Add Event"
+            android:background="@drawable/button_normal"
+            app:backgroundTint="@null"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:padding="8dp" />
+
+        <Button
+            android:id="@+id/btnMainMenu"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Main Menu"
+            android:background="@drawable/button_background"
+            app:backgroundTint="@null"
+            android:onClick="openMainMenu"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:padding="8dp" />
+
+        <Button
+            android:id="@+id/btnToDoList"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="To Do List"
+            android:background="@drawable/button_background"
+            app:backgroundTint="@null"
+            android:onClick="openToDoList"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:padding="8dp" />
+    </LinearLayout>
+</RelativeLayout>

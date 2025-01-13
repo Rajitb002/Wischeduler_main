@@ -1,0 +1,56 @@
+[versions]
+agp = "8.6.0"
+easypermissions = "3.0.0"
+firebaseAuth = "22.1.1"
+firebaseAuthVersion = "23.1.0"
+firebaseDatabase = "20.2.5"
+googleApiClientAndroid = "1.33.2"
+googleApiServicesCalendar = "v3-rev305-1.23.0"
+googleHttpClientGson = "1.41.8"
+googleOauthClientJetty = "1.23.0"
+googleServices = "4.4.2"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+listenablefuture = "9999.0-empty-to-avoid-conflict-with-guava"
+material = "1.12.0"
+activity = "1.9.2"
+constraintlayout = "2.1.4"
+playServicesAuth = "21.2.0"
+recyclerview = "1.3.2"
+recyclerviewVersion = "1.2.1"
+firebaseDatabaseVersion = "21.0.0"
+retrofitVersion = "2.9.0"
+
+[libraries]
+com-google-firebase-firebase-auth = { module = "com.google.firebase:firebase-auth", version.ref = "firebaseAuthVersion" }
+converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "retrofitVersion" }
+easypermissions = { module = "pub.devrel:easypermissions", version.ref = "easypermissions" }
+firebase-auth = { module = "google.firebase:firebase-auth", version.ref = "firebaseAuth" }
+firebase-database = { module = "google.firebase:firebase-database", version.ref = "firebaseDatabase" }
+gms-google-services = { module = "com.google.gms:google-services" }
+google-api-client-android = { module = "com.google.api-client:google-api-client-android", version.ref = "googleApiClientAndroid" }
+google-api-client-gson = { module = "com.google.api-client:google-api-client-gson", version.ref = "googleApiClientAndroid" }
+google-api-services-calendar = { module = "com.google.apis:google-api-services-calendar", version.ref = "googleApiServicesCalendar" }
+google-firebase-auth = { module = "com.google.firebase:firebase-auth" }
+google-http-client-gson = { module = "com.google.http-client:google-http-client-gson", version.ref = "googleHttpClientGson" }
+google-oauth-client-jetty = { module = "com.google.oauth-client:google-oauth-client-jetty", version.ref = "googleOauthClientJetty" }
+google-services = { module = "com.google.gms:google-services", version.ref = "googleServices" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+listenablefuture = { module = "com.google.guava:listenablefuture", version.ref = "listenablefuture" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+play-services-auth = { module = "com.google.android.gms:play-services-auth", version.ref = "playServicesAuth" }
+recyclerview = { group = "androidx.recyclerview", name = "recyclerview", version.ref = "recyclerview" }
+recyclerview-v121 = { module = "androidx.recyclerview:recyclerview", version.ref = "recyclerviewVersion" }
+retrofit2-retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofitVersion" }
+google-firebase-database = { group = "com.google.firebase", name = "firebase-database", version.ref = "firebaseDatabaseVersion" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+

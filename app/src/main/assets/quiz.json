@@ -1,0 +1,49 @@
+{
+  "calendarEvents": [
+    {
+      "id": "event-assignment-2360376",
+      "title": "VQ08 [FA24 ECE 230 001]",
+      "description": "",
+      "startTime": "2024-12-11T04:55:00Z",
+      "endTime": "2024-12-11T04:55:00Z",
+      "type": "Assignment",
+      "url": "https://canvas.wisc.edu/calendar?include_contexts=course_415082&month=12&year=2024#assignment_2360376"
+    },
+    {
+      "id": "event-quiz-1120349",
+      "title": "Quiz 2 [FA24 MATH 101 001]",
+      "description": "Quiz covering chapters 1-3.",
+      "startTime": "2024-12-12T16:00:00Z",
+      "endTime": "2024-12-12T16:00:00Z",
+      "type": "Quiz",
+      "url": "https://canvas.wisc.edu/calendar?include_contexts=course_451056&month=12&year=2024#quiz_1120349"
+    },
+    {
+      "id": "event-assignment-2520478",
+      "title": "Final Project [FA24 COMP 122 001]",
+      "description": "Final project submission due.",
+      "startTime": "2024-12-16T23:59:00Z",
+      "endTime": "2024-12-16T23:59:00Z",
+      "type": "Assignment",
+      "url": "https://canvas.wisc.edu/calendar?include_contexts=course_415082&month=12&year=2024#assignment_2520478"
+    },
+    {
+      "id": "event-assignment-2321473",
+      "title": "Essay Submission [FA24 ENG 201 001]",
+      "description": "Submit your essay on Shakespearean tragedies.",
+      "startTime": "2024-12-17T23:59:00Z",
+      "endTime": "2024-12-17T23:59:00Z",
+      "type": "Assignment",
+      "url": "https://canvas.wisc.edu/calendar?include_contexts=course_412075&month=12&year=2024#assignment_2321473"
+    },
+    {
+      "id": "event-quiz-2321456",
+      "title": "Midterm Quiz [FA24 PHYS 150 001]",
+      "description": "Quiz on Newtonian mechanics and thermodynamics.",
+      "startTime": "2024-12-18T14:00:00Z",
+      "endTime": "2024-12-18T14:00:00Z",
+      "type": "Quiz",
+      "url": "https://canvas.wisc.edu/calendar?include_contexts=course_420975&month=12&year=2024#quiz_2321456"
+    }
+  ]
+}

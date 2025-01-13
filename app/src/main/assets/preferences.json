@@ -1,0 +1,32 @@
+{
+  "questions_and_answers": [
+    {
+      "question": "When do you prefer to study?",
+      "answer": "Morning (6 AM - 12 PM)"
+    },
+    {
+      "question": "How long can you study in one sitting without losing focus?",
+      "answer": "1-2 hours"
+    },
+    {
+      "question": "How much advance preparation do you need for exams or quizzes?",
+      "answer": "1-2 weeks"
+    },
+    {
+      "question": "Do you prefer to complete assignments:",
+      "answer": "Early, well before the deadline"
+    },
+    {
+      "question": "What is your preferred sleep time?",
+      "answer": "11:00 PM"
+    },
+    {
+      "question": "What is your preferred wake-up time?",
+      "answer": "6:30 AM"
+    },
+    {
+      "question": "How would you like to spend your weekends?",
+      "answer": "A balance of both work and relaxation"
+    }
+  ]
+}
